@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 class Solution {
 public:
@@ -16,5 +17,5 @@ public:
 };
 int main() {
 	Solution myObj;
-	cout << myObj.isPalindrome(121);
+	cout << myObj.isPalindrome(2147483647);
 }
